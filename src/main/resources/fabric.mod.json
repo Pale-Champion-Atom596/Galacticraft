@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "galacticraft",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Galacticraft",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "Atom596"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -14,16 +14,16 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/galacticraft/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.atom596.galacticraft.Galacticraft"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "galacticraft.mixins.json"
   ],
 
   "depends": {
